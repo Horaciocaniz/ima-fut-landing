@@ -7,7 +7,7 @@ import gallery6 from "@/assets/gallery-6.jpg";
 
 export const Gallery = () => {
   return (
-    <section className="py-20 md:py-32 bg-white">
+    <section id="gallery" className="py-20 md:py-32 bg-white">
       <div className="container mx-auto px-4">
         <h2 className="text-6xl md:text-8xl lg:text-9xl font-display mb-12 md:mb-16 text-primary animate-slide-up">
           GALERÍA

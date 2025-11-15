@@ -1,6 +1,6 @@
 export const About = () => {
   return (
-    <section className="py-20 md:py-32 bg-background">
+    <section id="about" className="py-20 md:py-32 bg-background">
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-4 md:gap-6">
           <div className="md:col-span-7 bg-primary text-white p-8 md:p-12 brutalist-border border-foreground animate-slide-up">
