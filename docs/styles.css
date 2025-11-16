@@ -100,7 +100,7 @@ img {
   left: 0;
   right: 0;
   z-index: 50;
-  background-color: hsla(var(--color-primary), 0.95);
+  background-color: #00234D;
   backdrop-filter: blur(10px);
   border-bottom: 4px solid hsl(var(--fg-primary));
 }
@@ -111,6 +111,7 @@ img {
   justify-content: space-between;
   height: 4rem;
   padding: 0 1rem;
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -122,7 +123,7 @@ img {
 .navbar-logo {
   font-family: var(--font-display);
   font-size: 1.5rem;
-  color: white;
+  color: var(--bg-primary);
   font-weight: 400;
   text-decoration: none;
 }
@@ -148,7 +149,7 @@ img {
 .nav-link {
   font-family: var(--font-display);
   font-size: 1.125rem;
-  color: white;
+  color: var(--bg-primary);
   transition: color 0.3s ease;
 }
 
@@ -214,6 +215,22 @@ img {
 .mobile-nav-link:hover {
   color: hsl(var(--color-accent));
 }
+
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* separación entre logo y texto */
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #fff;
+}
+
+.navbar-logo .logo-img {
+  width: 40px;     /* Ajusta según tu diseño */
+  height: auto;
+}
+
 
 /* ===========================
    HERO SECTION
